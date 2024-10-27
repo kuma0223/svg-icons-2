@@ -50,7 +50,9 @@ window.addEventListener("DOMContentLoaded", function() {
     }
 })
 var YuSvgIcons = {
+'bar-chart':'<g fill="currentColor" stroke="currentColor" stroke-width="2"><path d="m9 28v-12"/><path d="m16 28v-18"/><path d="m23 28v-24"/><path d="m4 27h24"/></g>',
 'bars':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m4 8h24"/><path d="m4 16h24"/><path d="m4 24h24"/></g>',
+'bell':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m6 24c-3 0 0.515-2.06 1-4 2-8 0.758-14.3 9-15 7.86 0.382 7 7 9 15 0.767 3.07 4 4 1 4z" stroke-linejoin="round"/><path d="m11 24s2 4 5 4 5-4 5-4"/></g>',
 'calendar':'<path d="m5 7v20h22v-20z" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"/><g fill="currentColor"><circle cx="16" cy="15.5" r="1.5"/><circle cx="10.5" cy="15.5" r="1.5"/><circle cx="21.5" cy="15.5" r="1.5"/><circle cx="16" cy="21.5" r="1.5"/><circle cx="10.5" cy="21.5" r="1.5"/><path d="m12 5v4" stroke="currentColor" stroke-linecap="square" stroke-width="2"/><path d="m20 5v4" stroke="currentColor" stroke-linecap="square" stroke-width="2"/></g>',
 'clock':'<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="16" cy="16" r="12"/><path d="m16 9v7l5 4"/></g>',
 'cog':'<path d="m13.1 6.03 1.41-2.95h2.88l1.39 2.82 2.21 1.02 3.09-1.09 2.04 2.04-0.994 2.98 0.815 2.28 2.95 1.41v2.88l-2.89 1.44-0.937 2.23 1.06 3.02-2.04 2.04-3.06-1.02-2.23 0.94-1.39 2.85h-2.88l-1.44-2.89-2.23-0.937-3.02 1.06-2.04-2.04 1.02-2.97-0.936-2.32-2.85-1.39v-2.88l2.82-1.39 0.975-2.29-1.04-3.01 2.04-2.04 3.06 1.02z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.7"/><circle cx="16" cy="16" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5"/>',
@@ -63,7 +65,8 @@ var YuSvgIcons = {
 'heart':'<path d="m23 20.8c10.5-9.02 0.497-22.4-7-12-7.5-10.5-17.4 3.1-7 12l7 6z" fill="none" stroke="currentColor" stroke-width="2"/>',
 'history':'<path d="m6.91 8.17a12 12 0 0 1 13.1-3.49 12 12 0 0 1 8.03 10.9 12 12 0 0 1-7.19 11.4 12 12 0 0 1-13.3-2.51" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="m16 9v7l5 4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="m4 4v8h8z" fill="currentColor"/>',
 'home':'<path d="m5 27v-15l11-8 11 8v15h-15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>',
-'ku-down':'<path d="m6 11 10 10 10-10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>',
+'key':'<path d="m27 5h-13v9l-9 9v4h4l9-9h9z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="20.5" cy="11.5" r="1.5" fill="currentColor"/>',
+'ku-down':'<path d="m6 11 10 10 10-10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>',
 'ku-left':'<path d="m21 6-10 10 10 10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>',
 'ku-right':'<path d="m11 6 10 10-10 10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>',
 'ku-up':'<path d="m26 21-10-10-10 10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>',
@@ -77,6 +80,7 @@ var YuSvgIcons = {
 'memo':'<g fill="none" stroke="currentColor" stroke-linecap="square" stroke-width="2"><path d="m6 4h20v24h-20z"/><path d="m11 11h10" stroke-linejoin="round"/><path d="m11 17h5" stroke-linejoin="round"/></g>',
 'minus':'<path d="m7 16h18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>',
 'multiply':'<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"><path d="m23 9-14 14"/><path d="m9 9 14 14"/></g>',
+'panels':'<g fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="5" width="8" height="8"/><rect x="19" y="5" width="8" height="8"/><rect x="5" y="19" width="8" height="8"/><rect x="19" y="19" width="8" height="8"/></g>',
 'pen':'<path d="m25.4 8.25-10.6 15.7-7.86 4.45 1.27-8.92 10.6-15.7z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.99"/>',
 'plus':'<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"><path d="m16 6v20"/><path d="m6 16h20"/></g>',
 'refresh':'<path d="m25.1 22.2a11 11 0 0 1-12.9 4.14 11 11 0 0 1-7.12-11.5 11 11 0 0 1 9.48-9.69 11 11 0 0 1 11.7 6.87" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/><path d="m19 14h10v-10z" fill="currentColor"/>',
