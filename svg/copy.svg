@@ -1,6 +1,6 @@
 <svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
  <g fill="none" stroke="#000000" stroke-linecap="square" stroke-width="2">
-  <path d="m6 4h16v21h-16z"/>
+  <path d="m6 4h16v20h-16z"/>
   <path d="m9 28h17v-21"/>
  </g>
 </svg>
