@@ -69,6 +69,7 @@ var YuSvgIcons = {
 'folder-open':'<g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"><path d="m5 15v-10h8l2 4h12v17"/><path d="m22 15h-21l4 11h22z"/></g>',
 'folder':'<path d="m5 5h8l2 4h12v17h-22z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/>',
 'grid':'<g fill="none" stroke="currentColor"><rect x="5" y="5.53" width="22" height="21" ry="0" stroke-width="2"/><g stroke-width="1.5"><path d="m5 12.5h22"/><path d="m5 19.5h22"/><path d="m16 5.53v21"/></g></g>',
+'headphone':'<path d="m6 18h3a2 2 45 0 1 2 2v4.04a1.61 1.61 141 0 1-1.92 1.58l-3.08-0.615-1-7c0-7 3-13 11-13s11 6 11 13l-1 7-3.04 0.608a1.64 1.64 39.3 0 1-1.96-1.61v-4a2 2 135 0 1 2-2h3" fill="none" stroke="currentColor" stroke-width="2"/>',
 'heart':'<path d="m23 20.8c10.5-9.02 0.497-22.4-7-12-7.5-10.5-17.4 3.1-7 12l7 6z" fill="none" stroke="currentColor" stroke-width="2"/>',
 'history':'<path d="m6.91 8.17a12 12 0 0 1 13.1-3.49 12 12 0 0 1 8.03 10.9 12 12 0 0 1-7.19 11.4 12 12 0 0 1-13.3-2.51" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="m16 9v7l5 4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="m4 4v8h8z" fill="currentColor"/>',
 'home':'<path d="m5 27v-15l11-8 11 8v15h-15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>',
