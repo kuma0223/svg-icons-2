@@ -2,27 +2,41 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8" />
+    <script src="svg-icons.js"></script>
 </head>
 
 <body>
-    <div id="box"></div>
+    <div id="box" style="display: grid; grid-template-columns: repeat(auto-fill, 200px); gap: 5px 0">
+    </div>
     
-    <div id="test"></div>
+    <div id="sample-32" style="margin-top: 1rem">
+        <div>size: 32</div>
+    </div>
     
-    <script src="svg-icons.js"></script>
+    <div id="sample-24" style="margin-top: 1rem">
+        <div>size: 24</div>
+    </div>
+    
+    <div id="sample-20" style="margin-top: 1rem">
+        <div>size: 20</div>
+    </div>
+    
+    <div id="sample-18" style="margin-top: 1rem">
+        <div>size: 18</div>
+    </div>
     
     <script>
         document.getElementById("box").innerHTML = Object.keys(YuSvgIcons).map(x=>`
-            <div style="margin: 5px 0">
+            <div>
                 <img src="./svg/${x}.svg" width="24" height="24" style="vertical-align: top;">
                 <span style="margin-left: 5px;">${x}</span>
             </div>
         `).join("",)
         
-        document.getElementById("test").innerHTML += Object.keys(YuSvgIcons).map(x=>`<svg size="32" color="red" yu-icon="${x}"></svg>`).join("") + "<br>"
-        document.getElementById("test").innerHTML += Object.keys(YuSvgIcons).map(x=>`<svg size="24" color="blue" yu-icon="${x}"></svg>`).join("") + "<br>"
-        document.getElementById("test").innerHTML += Object.keys(YuSvgIcons).map(x=>`<svg size="20" color="green" yu-icon="${x}"></svg>`).join("") + "<br>"
-        document.getElementById("test").innerHTML += Object.keys(YuSvgIcons).map(x=>`<svg size="18" color="black" yu-icon="${x}"></svg>`).join("") + "<br>"
+        document.getElementById("sample-32").innerHTML += Object.keys(YuSvgIcons).map(x=>`<svg size="32" color="red" yu-icon="${x}"></svg>`).join("")
+        document.getElementById("sample-24").innerHTML += Object.keys(YuSvgIcons).map(x=>`<svg size="24" color="blue" yu-icon="${x}"></svg>`).join("")
+        document.getElementById("sample-20").innerHTML += Object.keys(YuSvgIcons).map(x=>`<svg size="20" color="green" yu-icon="${x}"></svg>`).join("")
+        document.getElementById("sample-18").innerHTML += Object.keys(YuSvgIcons).map(x=>`<svg size="18" color="black" yu-icon="${x}"></svg>`).join("")
     </script>
 </body>
 </html>
