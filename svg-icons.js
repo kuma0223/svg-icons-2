@@ -136,6 +136,7 @@ var YuSvgIcons = {
 'swap':'<path d="m7 22h17" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"/><path d="m25 10h-17" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"/><path d="m11 4-7 6 7 6z" fill="currentColor"/><path d="m21 16 7 6-7 6z" fill="currentColor"/>',
 'tag':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m10 9-6 7 6 7"/><path d="m22 9 6 7-6 7"/><path d="m18 7-4 18"/></g>',
 'talk':'<path d="m7 5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h5l4 5 4-5h5a2 2 0 0 0 2-2v-14a2 2 0 0 0-2-2z" fill="none" stroke="currentColor" stroke-width="2"/>',
+'target':'<circle cx="16" cy="16" r="10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/><circle cx="16" cy="16" r="3" fill="currentColor"/><g fill="none" stroke="currentColor" stroke-width="2"><path d="m16 2v4"/><path d="m2 16h4"/><path d="m26 16h4"/><path d="m16 26v4"/></g>',
 'tel':'<path d="m7.07 5.9c-0.828 9.07 4.03 17.8 13 22.5l5.93-5.73-4.37-5.56-4.33 2.5-4-6.93 4.33-2.5-2.63-6.56z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/>',
 'thunder':'<path d="m10 5h15l-8 7 5 6-12 8 3-8-8-5z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/>',
 'trash':'<g fill="none" stroke="currentColor" stroke-linecap="square" stroke-width="2"><path d="m7 12 2 15h14l2-15"/><path d="m5 7h22"/><path d="m16 7v-3"/></g>',
