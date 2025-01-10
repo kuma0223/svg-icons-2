@@ -61,6 +61,7 @@ var YuSvgIcons = {
 'camera':'<g fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="5" width="22" height="22" ry="3"/><circle cx="16" cy="16" r="5"/></g>',
 'check':'<path d="m4 17 4-5 7 7 13-16-12 23z" fill="currentColor"/>',
 'clock':'<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="16" cy="16" r="12"/><path d="m16 9v7l5 4"/></g>',
+'cloud':'<path d="m8 15c-1-11 15-11 14-1 9 0 8 12 3 12h-18c-5 0-6-11 1-11 3 0 4 2.56 4 4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>',
 'cog':'<path d="m13.1 6.03 1.41-2.95h2.88l1.39 2.82 2.21 1.02 3.09-1.09 2.04 2.04-0.994 2.98 0.815 2.28 2.95 1.41v2.88l-2.89 1.44-0.937 2.23 1.06 3.02-2.04 2.04-3.06-1.02-2.23 0.94-1.39 2.85h-2.88l-1.44-2.89-2.23-0.937-3.02 1.06-2.04-2.04 1.02-2.97-0.936-2.32-2.85-1.39v-2.88l2.82-1.39 0.975-2.29-1.04-3.01 2.04-2.04 3.06 1.02z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.7"/><circle cx="16" cy="16" r="3.2" fill="none" stroke="currentColor" stroke-width="1.5"/>',
 'control':'<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="m12 4h8v8h8v8h-8v8h-8v-8h-8v-8h8z" stroke-width="2"/><circle cx="16" cy="16" r="3" stroke-width="1.5"/></g>',
 'copy':'<g fill="none" stroke="currentColor" stroke-linecap="square" stroke-width="2"><path d="m6 4h16v20h-16z"/><path d="m9 28h17v-21"/></g>',
