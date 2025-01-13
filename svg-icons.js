@@ -50,6 +50,7 @@ window.addEventListener("DOMContentLoaded", function() {
     }
 })
 var YuSvgIcons = {
+'asc':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m15 7h4"/><path d="m11 13h8"/><path d="m7 19h12"/><path d="m3 25h16"/><path d="m25 6v19"/><path d="m21 21 4 5 4-5"/></g>',
 'ban':'<g fill="none" stroke="currentColor" stroke-width="2"><circle cx="16" cy="16" r="11" stroke-linecap="round"/><path d="m8 24 16-16"/></g>',
 'bar-chart':'<g fill="currentColor" stroke="currentColor" stroke-width="2"><path d="m9 28v-12"/><path d="m16 28v-18"/><path d="m23 28v-24"/><path d="m4 27h24"/></g>',
 'bars':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m4 8h24"/><path d="m4 16h24"/><path d="m4 24h24"/></g>',
@@ -68,9 +69,11 @@ var YuSvgIcons = {
 'crown':'<path d="m8 27-4-18 7 5 5-9 5 9 7-5-4 18z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/>',
 'cube':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m5 10v12l11 6 11-6v-12l-11-6z"/><path d="m5 10 11 6 11-6"/><path d="m16 16v12"/></g>',
 'delete':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m6 28v-24h20v8" stroke-linecap="square"/><g><path d="m10 28h4"/><path d="m26 16v4"/><path d="m26 25v-2"/><path d="m10 11h12"/><path d="m10 17h4"/><path d="m17 28h2"/></g></g>',
+'desc':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m4 7h24"/><path d="m8 13h20"/><path d="m12 19h16"/><path d="m16 25h12"/></g>',
 'divide':'<path d="m25 16h-18" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><circle cx="16" cy="9" r="2" fill="currentColor"/><circle cx="16" cy="23" r="2" fill="currentColor"/>',
 'down':'<path d="m16 27-10-12h6v-10h8v10h6z" fill="none" stroke="currentColor" stroke-width="2"/>',
 'download':'<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"><path d="m19 13v-9h-6v9h-6l9 10 9-10z"/><path d="m6 28h20" stroke-linejoin="round"/></g>',
+'eraser':'<path d="m28 14-11 11c-7 7-17-3-10-10l11-11z" fill="none" stroke="currentColor" stroke-width="1.99"/><path d="m7 15 10 10" fill="none" stroke="currentColor" stroke-width="2"/>',
 'filter':'<path d="m6 5v4l7 7v7l6 4v-11l7-7v-4z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/>',
 'flag':'<path d="m8 28v-23h18l-4 7 4 7h-17" fill="none" stroke="currentColor" stroke-width="2"/>',
 'folder-open':'<g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"><path d="m5 15v-10h8l2 4h12v17"/><path d="m22 15h-21l4 11h22z"/></g>',
@@ -113,7 +116,7 @@ var YuSvgIcons = {
 'network':'<g fill="none" stroke="currentColor" stroke-linejoin="round"><circle cx="16" cy="16" r="12" stroke-width="2"/><g stroke-width="1.5"><ellipse cx="16" cy="16" rx="5" ry="12"/><path d="m5 12h22"/><path d="m5 20h22"/></g></g>',
 'outdent':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m4 7h24"/><path d="m4 14h24"/><path d="m18 23h10"/><path d="m13.7 19-6 4 6 4"/></g>',
 'panels':'<g fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="5" width="8" height="8"/><rect x="19" y="5" width="8" height="8"/><rect x="5" y="19" width="8" height="8"/><rect x="19" y="19" width="8" height="8"/></g>',
-'pen':'<path d="m25.4 8.25-10.6 15.7-7.86 4.45 1.27-8.92 10.6-15.7z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.99"/>',
+'pen':'<path d="m27 11-16 16h-6v-6l16-16z" fill="none" stroke="currentColor" stroke-width="1.99"/><path d="m17 9 6 6" fill="none" stroke="currentColor" stroke-width="2"/>',
 'phone':'<rect x="8" y="4" width="16" height="24" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="18" y="7" width="3" height="3" fill="currentColor"/>',
 'photo':'<g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"><rect x="5" y="6" width="22" height="20"/><path d="m11 26 10-14 6 8"/><path d="m5 21 6-5 4.47 3.53"/></g>',
 'pie-chart':'<circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 5v11h11" fill="none" stroke="currentColor" stroke-width="2"/>',
