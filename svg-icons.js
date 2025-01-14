@@ -50,7 +50,6 @@ window.addEventListener("DOMContentLoaded", function() {
     }
 })
 var YuSvgIcons = {
-'asc':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m15 7h4"/><path d="m11 13h8"/><path d="m7 19h12"/><path d="m3 25h16"/><path d="m25 6v19"/><path d="m21 21 4 5 4-5"/></g>',
 'ban':'<g fill="none" stroke="currentColor" stroke-width="2"><circle cx="16" cy="16" r="11" stroke-linecap="round"/><path d="m8 24 16-16"/></g>',
 'bar-chart':'<g fill="currentColor" stroke="currentColor" stroke-width="2"><path d="m9 28v-12"/><path d="m16 28v-18"/><path d="m23 28v-24"/><path d="m4 27h24"/></g>',
 'bars':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m4 8h24"/><path d="m4 16h24"/><path d="m4 24h24"/></g>',
@@ -69,7 +68,6 @@ var YuSvgIcons = {
 'crown':'<path d="m8 27-4-18 7 5 5-9 5 9 7-5-4 18z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/>',
 'cube':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m5 10v12l11 6 11-6v-12l-11-6z"/><path d="m5 10 11 6 11-6"/><path d="m16 16v12"/></g>',
 'delete':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m6 28v-24h20v8" stroke-linecap="square"/><g><path d="m10 28h4"/><path d="m26 16v4"/><path d="m26 25v-2"/><path d="m10 11h12"/><path d="m10 17h4"/><path d="m17 28h2"/></g></g>',
-'desc':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m4 7h24"/><path d="m8 13h20"/><path d="m12 19h16"/><path d="m16 25h12"/></g>',
 'divide':'<path d="m25 16h-18" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><circle cx="16" cy="9" r="2" fill="currentColor"/><circle cx="16" cy="23" r="2" fill="currentColor"/>',
 'down':'<path d="m16 27-10-12h6v-10h8v10h6z" fill="none" stroke="currentColor" stroke-width="2"/>',
 'download':'<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"><path d="m19 13v-9h-6v9h-6l9 10 9-10z"/><path d="m6 28h20" stroke-linejoin="round"/></g>',
@@ -134,10 +132,12 @@ var YuSvgIcons = {
 'share':'<g fill="none" stroke="currentColor" stroke-width="2"><circle cx="23" cy="9" r="4"/><circle cx="9" cy="16" r="4"/><circle cx="23" cy="23" r="4"/><path d="m19.5 10.8-6.94 3.31m-0.0625 3.69 6.94 3.56"/></g>',
 'sign-in':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m19 5h8v22h-8" stroke-linecap="round"/><path d="m5 13h4v-6l12 9-12 9v-6h-4z" stroke-linecap="square" stroke-linejoin="round"/></g>',
 'sign-out':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m19 5h8v22h-8" stroke-linecap="round"/><path d="m20 19-5 5.9e-5v6l-11-9 11-9v6l5-2.9e-5z" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"/></g>',
+'snowman':'<g fill="none" stroke="currentColor" stroke-width="2"><circle cx="16" cy="9.5" r="5.5"/><path d="m17.5 14.9c3.37 0.853 5.55 3.46 5.55 6.8 0 4.01-3.58 7.26-8 7.26-4.42 0-8-3.25-8-7.26 0-3.63 3.16-6.54 7-7.08"/><path d="m9 17.5-4-3"/><path d="m23 19 4-2"/></g>',
 'sort-down':'<g fill="none" stroke="currentColor" stroke-width="2.5"><path d="m23 13.5-7-8-7 8" opacity="0.25"/><path d="m23 18.5-7 8-7-8"/></g>',
 'sort-up':'<g fill="none" stroke="currentColor" stroke-width="2.5"><path d="m23 13.5-7-8-7 8"/><path d="m23 18.5-7 8-7-8" opacity="0.25"/></g>',
 'sort':'<g fill="none" stroke="currentColor" stroke-width="2.5"><path d="m23 13.5-7-8-7 8"/><path d="m23 18.5-7 8-7-8"/></g>',
 'star':'<path d="m16 3.49 4.2 7.22 8.16 1.77-5.56 6.23 0.841 8.31-7.64-3.37-7.64 3.37 0.841-8.31-5.56-6.23 8.16-1.77z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/>',
+'storage':'<g fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="16" cy="9" rx="11" ry="4"/><path d="m27 9v14c0 2.21-4.92 4-11 4-6.08 0-11-1.79-11-4v-14"/></g>',
 'sun':'<g fill="none" stroke="currentColor" stroke-width="2"><circle cx="16" cy="16" r="6" /><path d="m16 2v4"/><path d="m28.1 9-3.46 2"/><path d="m28.1 23-3.46-2"/><path d="m16 30v-4"/><path d="m3.88 23 3.46-2"/><path d="m3.88 9 3.46 2"/></g>',
 'swap':'<path d="m7 22h17" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"/><path d="m25 10h-17" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"/><path d="m11 4-7 6 7 6z" fill="currentColor"/><path d="m21 16 7 6-7 6z" fill="currentColor"/>',
 'tag':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m10 9-6 7 6 7"/><path d="m22 9 6 7-6 7"/><path d="m18 7-4 18"/></g>',
