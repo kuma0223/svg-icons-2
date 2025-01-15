@@ -74,6 +74,7 @@ var YuSvgIcons = {
 'eraser':'<path d="m28 14-11 11c-7 7-17-3-10-10l11-11z" fill="none" stroke="currentColor" stroke-width="1.99"/><path d="m7 15 10 10" fill="none" stroke="currentColor" stroke-width="2"/>',
 'filter':'<path d="m6 5v4l7 7v7l6 4v-11l7-7v-4z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/>',
 'flag':'<path d="m8 28v-23h18l-4 7 4 7h-17" fill="none" stroke="currentColor" stroke-width="2"/>',
+'flask':'<path d="m19 13 8 11-2 3h-18l-2-3 8-11v-9h6z" fill="none" stroke="currentColor" stroke-width="2"/>',
 'folder-open':'<g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"><path d="m5 15v-10h8l2 4h12v17"/><path d="m22 15h-21l4 11h22z"/></g>',
 'folder':'<path d="m5 5h8l2 4h12v17h-22z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/>',
 'grid':'<g fill="none" stroke="currentColor"><rect x="5" y="5.53" width="22" height="21" ry="0" stroke-width="2"/><g stroke-width="1.5"><path d="m5 12.5h22"/><path d="m5 19.5h22"/><path d="m16 5.53v21"/></g></g>',
