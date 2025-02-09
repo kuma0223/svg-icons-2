@@ -162,6 +162,8 @@ var YuSvgIcons = {
 'wifi-1':'<circle cx="16" cy="24" r="1" fill="currentColor"/><path d="m11.9 20.5a6.08 5.96 0 0 1 8.07-0.00583" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/>',
 'wifi-2':'<circle cx="16" cy="24" r="1" fill="currentColor"/><path d="m8.66 16.8a11 11 0 0 1 14.7 0.0486" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/><path d="m11.9 20.5a6.08 5.96 0 0 1 8.07-0.00583" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"/>',
 'wifi-3':'<circle cx="16" cy="24" r="1" fill="currentColor"/><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"><path d="m8.66 16.8a11 11 0 0 1 14.7 0.0486"/><path d="m5.32 13.1a16 16 0 0 1 21.3-0.0625"/><path d="m11.9 20.5a6.08 5.96 0 0 1 8.07-0.00583"/></g>',
+'zoom-in':'<g fill="none" stroke="currentColor" stroke-linejoin="round"><g stroke-linecap="round"><circle cx="16" cy="16" r="10" stroke-width="2"/><path d="m24 24 3 3" stroke-width="3"/></g><path d="m16 11v10" stroke-width="2"/><path d="m11 16h10" stroke-width="2"/></g>',
+'zoom-out':'<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="10" stroke-width="2"/><path d="m24 24 3 3" stroke-width="3"/></g><path d="m11 16h10" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/>',
 }
 
 window.YuSvgIcons = YuSvgIcons
