@@ -107,6 +107,7 @@ var YuSvgIcons = {
 'lock':'<g fill="none" stroke="currentColor" stroke-width="2"><path x="8" y="13" width="16" height="14" d="m8 13h16v11a3 3 135 0 1-3 3h-10a3 3 45 0 1-3-3z"/><path d="m11 13v-4c0-6 10-6 10 0v4"/></g>',
 'mail':'<g fill="none" stroke="currentColor"><rect x="5" y="7" width="22" height="18" ry="2" stroke-width="2"/><path d="m5 12 11 7 11-7" stroke-linejoin="round" stroke-width="1.5"/></g>',
 'marker':'<g fill="none" stroke="currentColor" stroke-linejoin="round"><path d="m22 22-6 6-6-6c-6-6-5-18 6-18 11 0 12 12 6 18z" stroke-width="2"/><circle cx="16" cy="13.5" r="4" stroke-width="1.5"/></g>',
+'maximize':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m20 5h7v7"/><path d="m5 20v7h7"/><path d="m12 5h-7v7"/><path d="m27 20v7h-7"/></g>',
 'memo':'<g fill="none" stroke="currentColor" stroke-linecap="square" stroke-width="2"><path d="m6 4h20v24h-20z"/><path d="m11 11h10" stroke-linejoin="round"/><path d="m11 17h5" stroke-linejoin="round"/></g>',
 'mic':'<g fill="none" stroke="currentColor" stroke-width="2"><path d="m11 9c0-6 10-6 10 0v7c0 6-10 6-10 0z"/><path d="m6 18c2 5 6 7 10 7s8-2 10-7" stroke-linecap="round"/><path d="m16 25v5"/></g>',
 'minus':'<path d="m6 16h20" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/>',
